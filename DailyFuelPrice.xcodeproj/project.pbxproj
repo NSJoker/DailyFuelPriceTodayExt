@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0AA29D20283F2E00AAACE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA29C20283F2E00AAACE7 /* AppDelegate.swift */; };
+		6C0AA29F20283F2E00AAACE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA29E20283F2E00AAACE7 /* ViewController.swift */; };
+		6C0AA2A220283F2E00AAACE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2A020283F2E00AAACE7 /* Main.storyboard */; };
+		6C0AA2A420283F2E00AAACE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2A320283F2E00AAACE7 /* Assets.xcassets */; };
+		6C0AA2A720283F2E00AAACE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2A520283F2E00AAACE7 /* LaunchScreen.storyboard */; };
+		6C0AA2B120283F6E00AAACE7 /* DFPMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2AF20283F6E00AAACE7 /* DFPMainMenu.swift */; };
+		6C0AA2B220283F6E00AAACE7 /* DFPMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B020283F6E00AAACE7 /* DFPMainMenu.xib */; };
+		6C0AA2B5202840F200AAACE7 /* DFPCitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B3202840F200AAACE7 /* DFPCitiesCell.swift */; };
+		6C0AA2B6202840F200AAACE7 /* DFPCitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B4202840F200AAACE7 /* DFPCitiesCell.xib */; };
+		6C0AA2BC2028448300AAACE7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B82028448300AAACE7 /* UIViewExtension.swift */; };
+		6C0AA2BD2028448300AAACE7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B92028448300AAACE7 /* UIViewControllerExtension.swift */; };
+		6C0AA2BE2028448300AAACE7 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2BA2028448300AAACE7 /* UILabelExtension.swift */; };
+		6C0AA2BF2028448300AAACE7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2BB2028448300AAACE7 /* DateExtension.swift */; };
+		6C0AA2C1202844C600AAACE7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C0202844C600AAACE7 /* AppConstants.swift */; };
+		6C0AA2C42028570400AAACE7 /* DFPCityFuelPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C22028570400AAACE7 /* DFPCityFuelPrices.swift */; };
+		6C0AA2C52028570400AAACE7 /* DFPCityFuelPrices.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C32028570400AAACE7 /* DFPCityFuelPrices.xib */; };
+		6C0AA2C720285AAC00AAACE7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C620285AAC00AAACE7 /* UIColorExtension.swift */; };
+		6C0AA2C9202863C500AAACE7 /* DFPDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C8202863C500AAACE7 /* DFPDataCenter.swift */; };
+		6C0AA2CB20286E1300AAACE7 /* DFPTodayWidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2CA20286E1300AAACE7 /* DFPTodayWidgetManager.swift */; };
+		6C0AA2D32028750300AAACE7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0AA2D22028750300AAACE7 /* NotificationCenter.framework */; };
+		6C0AA2D62028750300AAACE7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2D52028750300AAACE7 /* TodayViewController.swift */; };
+		6C0AA2D92028750300AAACE7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0AA2D72028750300AAACE7 /* MainInterface.storyboard */; };
+		6C0AA2DD2028750400AAACE7 /* DFP.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C0AA2D02028750300AAACE7 /* DFP.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C0AA2E22028756700AAACE7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2BB2028448300AAACE7 /* DateExtension.swift */; };
+		6C0AA2E32028756700AAACE7 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2BA2028448300AAACE7 /* UILabelExtension.swift */; };
+		6C0AA2E42028756700AAACE7 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B92028448300AAACE7 /* UIViewControllerExtension.swift */; };
+		6C0AA2E52028756700AAACE7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2B82028448300AAACE7 /* UIViewExtension.swift */; };
+		6C0AA2E62028756700AAACE7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C620285AAC00AAACE7 /* UIColorExtension.swift */; };
+		6C0AA2E72028757000AAACE7 /* DFPTodayWidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2CA20286E1300AAACE7 /* DFPTodayWidgetManager.swift */; };
+		6C0AA2E82028757000AAACE7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C0202844C600AAACE7 /* AppConstants.swift */; };
+		6C0AA2EA20287EC800AAACE7 /* DFPDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AA2C8202863C500AAACE7 /* DFPDataCenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C0AA2DB2028750400AAACE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C0AA29120283F2E00AAACE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0AA2CF2028750300AAACE7;
+			remoteInfo = DFP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C0AA2E12028750400AAACE7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C0AA2DD2028750400AAACE7 /* DFP.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C0AA29920283F2E00AAACE7 /* DFP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0AA29C20283F2E00AAACE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C0AA29E20283F2E00AAACE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C0AA2A120283F2E00AAACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C0AA2A320283F2E00AAACE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C0AA2A620283F2E00AAACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C0AA2A820283F2E00AAACE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0AA2AF20283F6E00AAACE7 /* DFPMainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPMainMenu.swift; sourceTree = "<group>"; };
+		6C0AA2B020283F6E00AAACE7 /* DFPMainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DFPMainMenu.xib; sourceTree = "<group>"; };
+		6C0AA2B3202840F200AAACE7 /* DFPCitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPCitiesCell.swift; sourceTree = "<group>"; };
+		6C0AA2B4202840F200AAACE7 /* DFPCitiesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DFPCitiesCell.xib; sourceTree = "<group>"; };
+		6C0AA2B82028448300AAACE7 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6C0AA2B92028448300AAACE7 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6C0AA2BA2028448300AAACE7 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		6C0AA2BB2028448300AAACE7 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		6C0AA2C0202844C600AAACE7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		6C0AA2C22028570400AAACE7 /* DFPCityFuelPrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPCityFuelPrices.swift; sourceTree = "<group>"; };
+		6C0AA2C32028570400AAACE7 /* DFPCityFuelPrices.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DFPCityFuelPrices.xib; sourceTree = "<group>"; };
+		6C0AA2C620285AAC00AAACE7 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6C0AA2C8202863C500AAACE7 /* DFPDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPDataCenter.swift; sourceTree = "<group>"; };
+		6C0AA2CA20286E1300AAACE7 /* DFPTodayWidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFPTodayWidgetManager.swift; sourceTree = "<group>"; };
+		6C0AA2D02028750300AAACE7 /* DFP.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DFP.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0AA2D22028750300AAACE7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		6C0AA2D52028750300AAACE7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		6C0AA2D82028750300AAACE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		6C0AA2DA2028750300AAACE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0AA2E920287E2600AAACE7 /* DFP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DFP.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C0AA29620283F2E00AAACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0AA2CD2028750300AAACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AA2D32028750300AAACE7 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0AA29020283F2E00AAACE7 = {
+			isa = PBXGroup;
+			children = (
+				6C0AA29B20283F2E00AAACE7 /* DailyFuelPrice */,
+				6C0AA2D42028750300AAACE7 /* DFP */,
+				6C0AA2D12028750300AAACE7 /* Frameworks */,
+				6C0AA29A20283F2E00AAACE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0AA29A20283F2E00AAACE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA29920283F2E00AAACE7 /* DFP.app */,
+				6C0AA2D02028750300AAACE7 /* DFP.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0AA29B20283F2E00AAACE7 /* DailyFuelPrice */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA2E920287E2600AAACE7 /* DFP.entitlements */,
+				6C0AA2B72028446C00AAACE7 /* Extensions */,
+				6C0AA29C20283F2E00AAACE7 /* AppDelegate.swift */,
+				6C0AA2AF20283F6E00AAACE7 /* DFPMainMenu.swift */,
+				6C0AA2B020283F6E00AAACE7 /* DFPMainMenu.xib */,
+				6C0AA2B3202840F200AAACE7 /* DFPCitiesCell.swift */,
+				6C0AA2B4202840F200AAACE7 /* DFPCitiesCell.xib */,
+				6C0AA2C22028570400AAACE7 /* DFPCityFuelPrices.swift */,
+				6C0AA2C32028570400AAACE7 /* DFPCityFuelPrices.xib */,
+				6C0AA2C8202863C500AAACE7 /* DFPDataCenter.swift */,
+				6C0AA2CA20286E1300AAACE7 /* DFPTodayWidgetManager.swift */,
+				6C0AA2AE20283F4800AAACE7 /* Not Required */,
+				6C0AA2A320283F2E00AAACE7 /* Assets.xcassets */,
+				6C0AA2A520283F2E00AAACE7 /* LaunchScreen.storyboard */,
+				6C0AA2A820283F2E00AAACE7 /* Info.plist */,
+				6C0AA2C0202844C600AAACE7 /* AppConstants.swift */,
+			);
+			path = DailyFuelPrice;
+			sourceTree = "<group>";
+		};
+		6C0AA2AE20283F4800AAACE7 /* Not Required */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA29E20283F2E00AAACE7 /* ViewController.swift */,
+				6C0AA2A020283F2E00AAACE7 /* Main.storyboard */,
+			);
+			path = "Not Required";
+			sourceTree = "<group>";
+		};
+		6C0AA2B72028446C00AAACE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA2BB2028448300AAACE7 /* DateExtension.swift */,
+				6C0AA2BA2028448300AAACE7 /* UILabelExtension.swift */,
+				6C0AA2B92028448300AAACE7 /* UIViewControllerExtension.swift */,
+				6C0AA2B82028448300AAACE7 /* UIViewExtension.swift */,
+				6C0AA2C620285AAC00AAACE7 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6C0AA2D12028750300AAACE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA2D22028750300AAACE7 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C0AA2D42028750300AAACE7 /* DFP */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AA2D52028750300AAACE7 /* TodayViewController.swift */,
+				6C0AA2D72028750300AAACE7 /* MainInterface.storyboard */,
+				6C0AA2DA2028750300AAACE7 /* Info.plist */,
+			);
+			path = DFP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0AA29820283F2E00AAACE7 /* DailyFuelPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0AA2AB20283F2E00AAACE7 /* Build configuration list for PBXNativeTarget "DailyFuelPrice" */;
+			buildPhases = (
+				6C0AA29520283F2E00AAACE7 /* Sources */,
+				6C0AA29620283F2E00AAACE7 /* Frameworks */,
+				6C0AA29720283F2E00AAACE7 /* Resources */,
+				6C0AA2E12028750400AAACE7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0AA2DC2028750400AAACE7 /* PBXTargetDependency */,
+			);
+			name = DailyFuelPrice;
+			productName = DailyFuelPrice;
+			productReference = 6C0AA29920283F2E00AAACE7 /* DFP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C0AA2CF2028750300AAACE7 /* DFP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0AA2DE2028750400AAACE7 /* Build configuration list for PBXNativeTarget "DFP" */;
+			buildPhases = (
+				6C0AA2CC2028750300AAACE7 /* Sources */,
+				6C0AA2CD2028750300AAACE7 /* Frameworks */,
+				6C0AA2CE2028750300AAACE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFP;
+			productName = DFP;
+			productReference = 6C0AA2D02028750300AAACE7 /* DFP.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C0AA29120283F2E00AAACE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = F22Labs;
+				TargetAttributes = {
+					6C0AA29820283F2E00AAACE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6C0AA2CF2028750300AAACE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6C0AA29420283F2E00AAACE7 /* Build configuration list for PBXProject "DailyFuelPrice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C0AA29020283F2E00AAACE7;
+			productRefGroup = 6C0AA29A20283F2E00AAACE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0AA29820283F2E00AAACE7 /* DailyFuelPrice */,
+				6C0AA2CF2028750300AAACE7 /* DFP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C0AA29720283F2E00AAACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AA2B220283F6E00AAACE7 /* DFPMainMenu.xib in Resources */,
+				6C0AA2C52028570400AAACE7 /* DFPCityFuelPrices.xib in Resources */,
+				6C0AA2A720283F2E00AAACE7 /* LaunchScreen.storyboard in Resources */,
+				6C0AA2A420283F2E00AAACE7 /* Assets.xcassets in Resources */,
+				6C0AA2A220283F2E00AAACE7 /* Main.storyboard in Resources */,
+				6C0AA2B6202840F200AAACE7 /* DFPCitiesCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0AA2CE2028750300AAACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AA2D92028750300AAACE7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C0AA29520283F2E00AAACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AA2BC2028448300AAACE7 /* UIViewExtension.swift in Sources */,
+				6C0AA2C42028570400AAACE7 /* DFPCityFuelPrices.swift in Sources */,
+				6C0AA2CB20286E1300AAACE7 /* DFPTodayWidgetManager.swift in Sources */,
+				6C0AA2C1202844C600AAACE7 /* AppConstants.swift in Sources */,
+				6C0AA2BF2028448300AAACE7 /* DateExtension.swift in Sources */,
+				6C0AA29F20283F2E00AAACE7 /* ViewController.swift in Sources */,
+				6C0AA2BD2028448300AAACE7 /* UIViewControllerExtension.swift in Sources */,
+				6C0AA2B5202840F200AAACE7 /* DFPCitiesCell.swift in Sources */,
+				6C0AA2BE2028448300AAACE7 /* UILabelExtension.swift in Sources */,
+				6C0AA2C720285AAC00AAACE7 /* UIColorExtension.swift in Sources */,
+				6C0AA2B120283F6E00AAACE7 /* DFPMainMenu.swift in Sources */,
+				6C0AA29D20283F2E00AAACE7 /* AppDelegate.swift in Sources */,
+				6C0AA2C9202863C500AAACE7 /* DFPDataCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0AA2CC2028750300AAACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0AA2E52028756700AAACE7 /* UIViewExtension.swift in Sources */,
+				6C0AA2E42028756700AAACE7 /* UIViewControllerExtension.swift in Sources */,
+				6C0AA2EA20287EC800AAACE7 /* DFPDataCenter.swift in Sources */,
+				6C0AA2D62028750300AAACE7 /* TodayViewController.swift in Sources */,
+				6C0AA2E82028757000AAACE7 /* AppConstants.swift in Sources */,
+				6C0AA2E32028756700AAACE7 /* UILabelExtension.swift in Sources */,
+				6C0AA2E22028756700AAACE7 /* DateExtension.swift in Sources */,
+				6C0AA2E62028756700AAACE7 /* UIColorExtension.swift in Sources */,
+				6C0AA2E72028757000AAACE7 /* DFPTodayWidgetManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C0AA2DC2028750400AAACE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0AA2CF2028750300AAACE7 /* DFP */;
+			targetProxy = 6C0AA2DB2028750400AAACE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C0AA2A020283F2E00AAACE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0AA2A120283F2E00AAACE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C0AA2A520283F2E00AAACE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0AA2A620283F2E00AAACE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C0AA2D72028750300AAACE7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0AA2D82028750300AAACE7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0AA2A920283F2E00AAACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C0AA2AA20283F2E00AAACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C0AA2AC20283F2E00AAACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyFuelPrice/DFP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWPPP8XM37;
+				INFOPLIST_FILE = DailyFuelPrice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.f22labs.DailyFuelPrice;
+				PRODUCT_NAME = DFP;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C0AA2AD20283F2E00AAACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DailyFuelPrice/DFP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWPPP8XM37;
+				INFOPLIST_FILE = DailyFuelPrice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.f22labs.DailyFuelPrice;
+				PRODUCT_NAME = DFP;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C0AA2DF2028750400AAACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DailyFuelPrice/DFP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWPPP8XM37;
+				INFOPLIST_FILE = DFP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.f22labs.DailyFuelPrice.DFP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C0AA2E02028750400AAACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DailyFuelPrice/DFP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GWPPP8XM37;
+				INFOPLIST_FILE = DFP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.f22labs.DailyFuelPrice.DFP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C0AA29420283F2E00AAACE7 /* Build configuration list for PBXProject "DailyFuelPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0AA2A920283F2E00AAACE7 /* Debug */,
+				6C0AA2AA20283F2E00AAACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0AA2AB20283F2E00AAACE7 /* Build configuration list for PBXNativeTarget "DailyFuelPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0AA2AC20283F2E00AAACE7 /* Debug */,
+				6C0AA2AD20283F2E00AAACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0AA2DE2028750400AAACE7 /* Build configuration list for PBXNativeTarget "DFP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0AA2DF2028750400AAACE7 /* Debug */,
+				6C0AA2E02028750400AAACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C0AA29120283F2E00AAACE7 /* Project object */;
+}
